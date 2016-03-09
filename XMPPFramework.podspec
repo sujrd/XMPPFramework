@@ -15,7 +15,7 @@ s.license = { :type => 'BSD', :file => 'copying.txt' }
 s.summary = 'An XMPP Framework in Objective-C for the Mac / iOS development community.'
 s.homepage = 'https://github.com/processOne/XMPPFramework'
 s.author = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-s.source = { :git => 'https://github.com/processOne/XMPPFramework.git', :tag => s.version }
+s.source = { :git => 'https://github.com/michaelhenry/XMPPFramework.git', :tag => s.version }
 s.resources = [ '**/*.{xcdatamodel,xcdatamodeld}']
 
 s.description = 'XMPPFramework provides a core implementation of RFC-3920 (the xmpp standard), along with
