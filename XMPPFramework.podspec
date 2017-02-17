@@ -54,7 +54,7 @@ s.subspec 'Core' do |core|
 }
   core.dependency 'CocoaLumberjack','~>2.0'
   core.dependency 'CocoaAsyncSocket','~>7.4.1'
-  core.dependency 'KissXML/libxml_module', '5.1'
+  core.dependency 'KissXML/libxml_module', '~> 5.1'
 end
 
 s.subspec 'BandwidthMonitor' do |ss|
