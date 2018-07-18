@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'XMPPFramework'
-s.version = '3.7.1'
+s.version = '3.7.2'
 
 s.osx.deployment_target = '10.7'
 s.ios.deployment_target = '6.0'
