@@ -2508,10 +2508,6 @@ enum XMPPStreamConfig
 {
 	NSAssert(dispatch_get_specific(xmppQueueTag), @"Invoked on incorrect queue");
 	
-    if (![self isAuthenticated] && (![element.xmlns isEqualToString:@"jabber:iq:auth"] && ![element.xmlns isEqualToString:@"urn:ietf:params:xml:ns:xmpp-sasl"])) {
-        return;
-    }
-    
 	if ([element isKindOfClass:[XMPPIQ class]])
 	{
 		[self sendIQ:(XMPPIQ *)element withTag:tag];
