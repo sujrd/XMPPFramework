@@ -2511,9 +2511,9 @@ enum XMPPStreamConfig
     if (![self isAuthenticated] &&
         (![element.xmlns isEqualToString:@"jabber:iq:auth"] &&
          ![element.xmlns isEqualToString:@"urn:ietf:params:xml:ns:xmpp-sasl"] &&
-         [element.prettyXMLString rangeOfString:@"<validate xmlns=\"xmpp:join:token"] != NSNotFound &&
-         [element.prettyXMLString rangeOfString:@"<register xmlns=\"xmpp:join:2nd_device"] != NSNotFound &&
-         [element.prettyXMLString rangeOfString:@"<call_access_code xmlns= \"xmpp:join:sms"] != NSNotFound &&
+         [element.prettyXMLString rangeOfString:@"<validate xmlns=\"xmpp:join:token"].location != NSNotFound &&
+         [element.prettyXMLString rangeOfString:@"<register xmlns=\"xmpp:join:2nd_device"].location != NSNotFound &&
+         [element.prettyXMLString rangeOfString:@"<call_access_code xmlns= \"xmpp:join:sms"].location != NSNotFound &&
          )) {
             return;
         }
