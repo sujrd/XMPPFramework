@@ -2506,17 +2506,7 @@ enum XMPPStreamConfig
 **/
 - (void)sendElement:(NSXMLElement *)element withTag:(long)tag
 {
-	NSAssert(dispatch_get_specific(xmppQueueTag), @"Invoked on incorrect queue");
-	
-    if (![self isAuthenticated] &&
-        (![element.xmlns isEqualToString:@"jabber:iq:auth"] &&
-         ![element.xmlns isEqualToString:@"urn:ietf:params:xml:ns:xmpp-sasl"] &&
-         [element.prettyXMLString rangeOfString:@"<validate xmlns=\"xmpp:join:token"].location != NSNotFound &&
-         [element.prettyXMLString rangeOfString:@"<register xmlns=\"xmpp:join:2nd_device"].location != NSNotFound &&
-         [element.prettyXMLString rangeOfString:@"<call_access_code xmlns= \"xmpp:join:sms"].location != NSNotFound
-         )) {
-            return;
-        }
+	NSAssert(dispatch_get_specific(xmppQueueTag), @"Invoked on incorrect queue");	
     
 	if ([element isKindOfClass:[XMPPIQ class]])
 	{
