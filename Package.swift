@@ -97,6 +97,7 @@ let package = Package(
                 "XMPPMUCLightTests.m",
                 "OMEMOElementTests.m",
                 "XMPPURITests.m",
+                "XMPPStringPrepTests.m",
                 "XMPPSwift.swift",
                 "XMPPBookmarksTests.swift",
                 "XMPPOneToOneChatTests.m",
@@ -162,6 +163,7 @@ let package = Package(
                 "Testing-Shared/EncodeDecodeTest.m",
                 "Testing-Shared/XMPPStorageHintTests.m",
                 "Testing-Shared/XMPPURITests.m",
+                "Testing-Shared/XMPPStringPrepTests.m",
                 "Testing-Shared/XMPPMUCLightTests.m",
                 "Testing-Shared/XMPPFrameworkTests-Bridging-Header.h"
             ],
