@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
 	                    'Authentication/**/*.{h,m}', 'Categories/**/*.{h,m}',
 	                    'Utilities/**/*.{h,m}', 'Extensions/**/*.{h,m}']
 	  ss.ios.exclude_files = 'Extensions/SystemInputActivityMonitor/**/*.{h,m}'
+	  ss.private_header_files = 'Utilities/XMPPStringPrepTables.h'
 	  ss.libraries = 'xml2', 'resolv'
 	  ss.frameworks = 'CoreData', 'SystemConfiguration', 'CoreLocation'
 	  ss.xcconfig = {
@@ -38,7 +39,6 @@ Pod::Spec.new do |s|
 	  ss.dependency 'CocoaLumberjack' # Skip pinning version because of the awkward 2.x->3.x transition
 	  ss.dependency 'CocoaAsyncSocket', '~> 7.6'
 	  ss.dependency 'KissXML', '~> 5.2'
-	  ss.dependency 'libidn', '~> 1.35'
   end
 
   s.subspec 'Swift' do |ss|

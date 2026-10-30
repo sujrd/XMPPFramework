@@ -134,20 +134,17 @@
 		D9A7A9B91FB97892005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7A9BA1FB97892005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9A7A9BB1FB97892005183CD /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD35D1E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
-		D9A7A9BC1FB97892005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD38F1E6250D20010D1C7 /* libidn.framework */; };
 		D9A7A9BD1FB97892005183CD /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3801E6250CE0010D1C7 /* KissXML.framework */; };
 		D9A7A9BE1FB97892005183CD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3401E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9A7ADAC1FB97A3C005183CD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD6BF1E625B4D0010D1C7 /* AppKit.framework */; };
 		D9A7ADAD1FB97A3C005183CD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3421E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9A7ADAE1FB97A3C005183CD /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3591E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
 		D9A7ADAF1FB97A3C005183CD /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3821E6250CE0010D1C7 /* KissXML.framework */; };
-		D9A7ADB01FB97A3C005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3931E6250D20010D1C7 /* libidn.framework */; };
 		D9A7ADB11FB97A3C005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7ADB21FB97A3C005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9A7AEF81FB97A65005183CD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3441E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9A7AEF91FB97A65005183CD /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3671E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
 		D9A7AEFA1FB97A65005183CD /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3841E6250CE0010D1C7 /* KissXML.framework */; };
-		D9A7AEFB1FB97A65005183CD /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3951E6250D20010D1C7 /* libidn.framework */; };
 		D9A7AEFC1FB97A65005183CD /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
 		D9A7AEFD1FB97A65005183CD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9A7AFB61FB97B20005183CD /* XMPPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D44BAEA1E537066000930E0 /* XMPPFramework.framework */; };
@@ -411,7 +408,6 @@
 		D9DCD3381E6250930010D1C7 /* XMPPRoomLight.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD24A1E6250930010D1C7 /* XMPPRoomLight.m */; };
 		D9DCD39E1E6251420010D1C7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3401E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9DCD39F1E6251490010D1C7 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3801E6250CE0010D1C7 /* KissXML.framework */; };
-		D9DCD3A01E6251510010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD38F1E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD3A11E62515E0010D1C7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD35D1E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
 		D9DCD3A61E6251E30010D1C7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */; };
 		D9DCD3A81E6251FA0010D1C7 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */; };
@@ -714,7 +710,6 @@
 		D9DCD5541E6257CE0010D1C7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3421E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9DCD5551E6257CE0010D1C7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3591E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
 		D9DCD5561E6257CE0010D1C7 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3821E6250CE0010D1C7 /* KissXML.framework */; };
-		D9DCD5571E6257CE0010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3931E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD5641E6258CF0010D1C7 /* XMPPMessageCarbons.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD2221E6250930010D1C7 /* XMPPMessageCarbons.m */; };
 		D9DCD5651E6258CF0010D1C7 /* XMPPIQ+XEP_0060.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD1B71E6250930010D1C7 /* XMPPIQ+XEP_0060.m */; };
 		D9DCD5661E6258CF0010D1C7 /* XMPPRoomHybrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9DCD17B1E6250930010D1C7 /* XMPPRoomHybrid.xcdatamodeld */; };
@@ -1014,7 +1009,6 @@
 		D9DCD6A01E6259970010D1C7 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3441E6250C60010D1C7 /* CocoaAsyncSocket.framework */; };
 		D9DCD6A11E6259970010D1C7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3671E6250CA0010D1C7 /* CocoaLumberjack.framework */; };
 		D9DCD6A21E6259970010D1C7 /* KissXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3841E6250CE0010D1C7 /* KissXML.framework */; };
-		D9DCD6A31E6259970010D1C7 /* libidn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD3951E6250D20010D1C7 /* libidn.framework */; };
 		D9DCD6C01E625B4D0010D1C7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DCD6BF1E625B4D0010D1C7 /* AppKit.framework */; };
 		D9DEB76C1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DEB76A1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9DEB76D1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DEB76A1FB66F9900C252F5 /* NSXMLElement+XEP_0048.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1086,26 +1080,12 @@
 			remoteGlobalIDString = 0DCD8DC91E54A3A3001D9832;
 			remoteInfo = "KissXML (iOS)";
 		};
-		D9A7A9211FB97892005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D2812301E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
 		D9A7AD0E1FB97A3C005183CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9DCD3451E6250CA0010D1C7 /* Lumberjack.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCB3185014EB418E001CFBEE;
 			remoteInfo = CocoaLumberjack;
-		};
-		D9A7AD101FB97A3C005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D9A06D241E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
 		};
 		D9A7AD121FB97A3C005183CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1120,13 +1100,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9FC41F121B9D965000578BEB;
 			remoteInfo = "Mac CocoaAsyncSocket";
-		};
-		D9A7AE5A1FB97A65005183CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D949C92A1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
 		};
 		D9A7AE5C1FB97A65005183CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1338,41 +1311,6 @@
 			remoteGlobalIDString = D94131EC1E5CECC700189BD5;
 			remoteInfo = "KissXML (watchOS)";
 		};
-		D9DCD38E1E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0D2812311E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
-		D9DCD3901E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D949C9281E5E097F00DF5447;
-			remoteInfo = "libidn (watchOS)";
-		};
-		D9DCD3921E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D9A06D661E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
-		};
-		D9DCD3941E6250D20010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D949C96C1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
-		};
-		D9DCD3961E6250DB0010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D2812301E5597AF00DFC03B;
-			remoteInfo = "libidn (iOS)";
-		};
 		D9DCD3981E6250DF0010D1C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9DCD3781E6250CE0010D1C7 /* KissXML.xcodeproj */;
@@ -1394,13 +1332,6 @@
 			remoteGlobalIDString = 6CD9900F1B77868C0011A685;
 			remoteInfo = "iOS CocoaAsyncSocket";
 		};
-		D9DCD54C1E6257B00010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D9A06D241E5D88F100FA59D3;
-			remoteInfo = "libidn (macOS)";
-		};
 		D9DCD54E1E6257B00010D1C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9DCD3781E6250CE0010D1C7 /* KissXML.xcodeproj */;
@@ -1421,13 +1352,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = DCB3185014EB418E001CFBEE;
 			remoteInfo = CocoaLumberjack;
-		};
-		D9DCD6981E6259770010D1C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D949C92A1E5E09E600DF5447;
-			remoteInfo = "libidn (tvOS)";
 		};
 		D9DCD69A1E6259770010D1C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1786,7 +1710,6 @@
 		D9DCD3391E6250C50010D1C7 /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = Carthage/Checkouts/CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
 		D9DCD3451E6250CA0010D1C7 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = Carthage/Checkouts/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
 		D9DCD3781E6250CE0010D1C7 /* KissXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KissXML.xcodeproj; path = Carthage/Checkouts/KissXML/KissXML.xcodeproj; sourceTree = "<group>"; };
-		D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libidn.xcodeproj; path = "Carthage/Checkouts/libidn-framework/libidn.xcodeproj"; sourceTree = "<group>"; };
 		D9DCD3A31E6251DC0010D1C7 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		D9DCD3A51E6251E30010D1C7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		D9DCD3A71E6251FA0010D1C7 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
@@ -1818,7 +1741,6 @@
 				D9DCD3A81E6251FA0010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD3A61E6251E30010D1C7 /* libxml2.tbd in Frameworks */,
 				D9DCD3A11E62515E0010D1C7 /* CocoaLumberjack.framework in Frameworks */,
-				D9DCD3A01E6251510010D1C7 /* libidn.framework in Frameworks */,
 				D9DCD39F1E6251490010D1C7 /* KissXML.framework in Frameworks */,
 				D9DCD39E1E6251420010D1C7 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
@@ -1833,7 +1755,6 @@
 				D9A7A9B91FB97892005183CD /* libresolv.tbd in Frameworks */,
 				D9A7A9BA1FB97892005183CD /* libxml2.tbd in Frameworks */,
 				D9A7A9BB1FB97892005183CD /* CocoaLumberjack.framework in Frameworks */,
-				D9A7A9BC1FB97892005183CD /* libidn.framework in Frameworks */,
 				D9A7A9BD1FB97892005183CD /* KissXML.framework in Frameworks */,
 				D9A7A9BE1FB97892005183CD /* CocoaAsyncSocket.framework in Frameworks */,
 			);
@@ -1849,7 +1770,6 @@
 				D9A7ADAD1FB97A3C005183CD /* CocoaAsyncSocket.framework in Frameworks */,
 				D9A7ADAE1FB97A3C005183CD /* CocoaLumberjack.framework in Frameworks */,
 				D9A7ADAF1FB97A3C005183CD /* KissXML.framework in Frameworks */,
-				D9A7ADB01FB97A3C005183CD /* libidn.framework in Frameworks */,
 				D9A7ADB11FB97A3C005183CD /* libresolv.tbd in Frameworks */,
 				D9A7ADB21FB97A3C005183CD /* libxml2.tbd in Frameworks */,
 			);
@@ -1864,7 +1784,6 @@
 				D9A7AEF81FB97A65005183CD /* CocoaAsyncSocket.framework in Frameworks */,
 				D9A7AEF91FB97A65005183CD /* CocoaLumberjack.framework in Frameworks */,
 				D9A7AEFA1FB97A65005183CD /* KissXML.framework in Frameworks */,
-				D9A7AEFB1FB97A65005183CD /* libidn.framework in Frameworks */,
 				D9A7AEFC1FB97A65005183CD /* libresolv.tbd in Frameworks */,
 				D9A7AEFD1FB97A65005183CD /* libxml2.tbd in Frameworks */,
 			);
@@ -1878,7 +1797,6 @@
 				D9DCD5541E6257CE0010D1C7 /* CocoaAsyncSocket.framework in Frameworks */,
 				D9DCD5551E6257CE0010D1C7 /* CocoaLumberjack.framework in Frameworks */,
 				D9DCD5561E6257CE0010D1C7 /* KissXML.framework in Frameworks */,
-				D9DCD5571E6257CE0010D1C7 /* libidn.framework in Frameworks */,
 				D9DCD4911E6256D90010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD4921E6256D90010D1C7 /* libxml2.tbd in Frameworks */,
 			);
@@ -1891,7 +1809,6 @@
 				D9DCD6A01E6259970010D1C7 /* CocoaAsyncSocket.framework in Frameworks */,
 				D9DCD6A11E6259970010D1C7 /* CocoaLumberjack.framework in Frameworks */,
 				D9DCD6A21E6259970010D1C7 /* KissXML.framework in Frameworks */,
-				D9DCD6A31E6259970010D1C7 /* libidn.framework in Frameworks */,
 				D9DCD5F81E6258CF0010D1C7 /* libresolv.tbd in Frameworks */,
 				D9DCD5F91E6258CF0010D1C7 /* libxml2.tbd in Frameworks */,
 			);
@@ -2081,7 +1998,6 @@
 		0DD99DD91E54BC8500019F04 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */,
 				D9DCD3781E6250CE0010D1C7 /* KissXML.xcodeproj */,
 				D9DCD3451E6250CA0010D1C7 /* Lumberjack.xcodeproj */,
 				D9DCD3391E6250C50010D1C7 /* CocoaAsyncSocket.xcodeproj */,
@@ -2950,17 +2866,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9DCD3881E6250D10010D1C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9DCD38F1E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3911E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3931E6250D20010D1C7 /* libidn.framework */,
-				D9DCD3951E6250D20010D1C7 /* libidn.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D9DCD3A21E6251DC0010D1C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3570,7 +3475,6 @@
 				D9DCD39D1E6251300010D1C7 /* PBXTargetDependency */,
 				D9DCD39B1E6251240010D1C7 /* PBXTargetDependency */,
 				D9DCD3991E6250DF0010D1C7 /* PBXTargetDependency */,
-				D9DCD3971E6250DB0010D1C7 /* PBXTargetDependency */,
 			);
 			name = "XMPPFramework (iOS)";
 			productName = "XMPPFramework-iOS";
@@ -3594,7 +3498,6 @@
 				D9A7A91A1FB97892005183CD /* PBXTargetDependency */,
 				D9A7A91C1FB97892005183CD /* PBXTargetDependency */,
 				D9A7A91E1FB97892005183CD /* PBXTargetDependency */,
-				D9A7A9201FB97892005183CD /* PBXTargetDependency */,
 			);
 			name = "XMPPFrameworkSwift (iOS)";
 			productName = "XMPPFramework-iOS";
@@ -3615,7 +3518,6 @@
 			dependencies = (
 				D9A7B0111FB98064005183CD /* PBXTargetDependency */,
 				D9A7AD0D1FB97A3C005183CD /* PBXTargetDependency */,
-				D9A7AD0F1FB97A3C005183CD /* PBXTargetDependency */,
 				D9A7AD111FB97A3C005183CD /* PBXTargetDependency */,
 				D9A7AD131FB97A3C005183CD /* PBXTargetDependency */,
 			);
@@ -3637,7 +3539,6 @@
 			);
 			dependencies = (
 				D9A7B0141FB98075005183CD /* PBXTargetDependency */,
-				D9A7AE591FB97A65005183CD /* PBXTargetDependency */,
 				D9A7AE5B1FB97A65005183CD /* PBXTargetDependency */,
 				D9A7AE5D1FB97A65005183CD /* PBXTargetDependency */,
 				D9A7AE5F1FB97A65005183CD /* PBXTargetDependency */,
@@ -3660,7 +3561,6 @@
 			);
 			dependencies = (
 				D9DCD5591E62580F0010D1C7 /* PBXTargetDependency */,
-				D9DCD54D1E6257B00010D1C7 /* PBXTargetDependency */,
 				D9DCD54F1E6257B00010D1C7 /* PBXTargetDependency */,
 				D9DCD5531E6257B00010D1C7 /* PBXTargetDependency */,
 			);
@@ -3681,7 +3581,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DCD6991E6259770010D1C7 /* PBXTargetDependency */,
 				D9DCD69B1E6259770010D1C7 /* PBXTargetDependency */,
 				D9DCD69D1E6259770010D1C7 /* PBXTargetDependency */,
 				D9DCD69F1E6259770010D1C7 /* PBXTargetDependency */,
@@ -3742,10 +3641,6 @@
 				{
 					ProductGroup = D9DCD3791E6250CE0010D1C7 /* Products */;
 					ProjectRef = D9DCD3781E6250CE0010D1C7 /* KissXML.xcodeproj */;
-				},
-				{
-					ProductGroup = D9DCD3881E6250D10010D1C7 /* Products */;
-					ProjectRef = D9DCD3871E6250D10010D1C7 /* libidn.xcodeproj */;
 				},
 				{
 					ProductGroup = D9DCD3461E6250CA0010D1C7 /* Products */;
@@ -3924,34 +3819,6 @@
 			fileType = wrapper.framework;
 			path = KissXML.framework;
 			remoteRef = D9DCD3851E6250CE0010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD38F1E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD38E1E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3911E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3901E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3931E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3921E6250D20010D1C7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D9DCD3951E6250D20010D1C7 /* libidn.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = libidn.framework;
-			remoteRef = D9DCD3941E6250D20010D1C7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -4569,20 +4436,10 @@
 			name = "KissXML (iOS)";
 			targetProxy = D9A7A91F1FB97892005183CD /* PBXContainerItemProxy */;
 		};
-		D9A7A9201FB97892005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (iOS)";
-			targetProxy = D9A7A9211FB97892005183CD /* PBXContainerItemProxy */;
-		};
 		D9A7AD0D1FB97A3C005183CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
 			targetProxy = D9A7AD0E1FB97A3C005183CD /* PBXContainerItemProxy */;
-		};
-		D9A7AD0F1FB97A3C005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (macOS)";
-			targetProxy = D9A7AD101FB97A3C005183CD /* PBXContainerItemProxy */;
 		};
 		D9A7AD111FB97A3C005183CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4593,11 +4450,6 @@
 			isa = PBXTargetDependency;
 			name = "Mac CocoaAsyncSocket";
 			targetProxy = D9A7AD141FB97A3C005183CD /* PBXContainerItemProxy */;
-		};
-		D9A7AE591FB97A65005183CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (tvOS)";
-			targetProxy = D9A7AE5A1FB97A65005183CD /* PBXContainerItemProxy */;
 		};
 		D9A7AE5B1FB97A65005183CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4634,11 +4486,6 @@
 			name = "CocoaLumberjackSwift-tvOS";
 			targetProxy = D9A7B0131FB98075005183CD /* PBXContainerItemProxy */;
 		};
-		D9DCD3971E6250DB0010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (iOS)";
-			targetProxy = D9DCD3961E6250DB0010D1C7 /* PBXContainerItemProxy */;
-		};
 		D9DCD3991E6250DF0010D1C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KissXML (iOS)";
@@ -4654,11 +4501,6 @@
 			name = "iOS CocoaAsyncSocket";
 			targetProxy = D9DCD39C1E6251300010D1C7 /* PBXContainerItemProxy */;
 		};
-		D9DCD54D1E6257B00010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (macOS)";
-			targetProxy = D9DCD54C1E6257B00010D1C7 /* PBXContainerItemProxy */;
-		};
 		D9DCD54F1E6257B00010D1C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KissXML (macOS)";
@@ -4673,11 +4515,6 @@
 			isa = PBXTargetDependency;
 			name = CocoaLumberjack;
 			targetProxy = D9DCD5581E62580F0010D1C7 /* PBXContainerItemProxy */;
-		};
-		D9DCD6991E6259770010D1C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libidn (tvOS)";
-			targetProxy = D9DCD6981E6259770010D1C7 /* PBXContainerItemProxy */;
 		};
 		D9DCD69B1E6259770010D1C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4748,7 +4585,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
-				LIBRARY_SEARCH_PATHS = ../../Vendor/libidn;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -4806,7 +4642,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
-				LIBRARY_SEARCH_PATHS = ../../Vendor/libidn;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
