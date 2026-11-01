@@ -5,9 +5,9 @@ let package = Package(
     name: "XMPPFramework",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v10_10),
-        .iOS(.v9),
-        .tvOS(.v9)
+        .macOS("12.0"),
+        .iOS("15.0"),
+        .tvOS("15.0")
     ],
     products: [
         .library(
